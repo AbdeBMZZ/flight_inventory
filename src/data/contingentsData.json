@@ -1,0 +1,26 @@
+[
+  {
+    "flightId": "1",
+    "clientCode": "Client1",
+    "totalSeats": 100,
+    "bookedSeats": 50
+  },
+  {
+    "flightId": "1",
+    "clientCode": "Client2",
+    "totalSeats": 80,
+    "bookedSeats": 20
+  },
+  {
+    "flightId": "2",
+    "clientCode": "Client1",
+    "totalSeats": 200,
+    "bookedSeats": 30
+  },
+  {
+    "flightId": "2",
+    "clientCode": "Client2",
+    "totalSeats": 130,
+    "bookedSeats": 40
+  }
+]

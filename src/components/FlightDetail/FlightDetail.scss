@@ -1,0 +1,26 @@
+@import "../../styles/common-styles.scss";
+
+.flight-detail-view {
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+  .dx-datagrid {
+    @include dxDataGridStyles;
+  }
+
+  .dx-header-row {
+    @include dxHeaderRowStyles;
+  }
+
+  @include dxRowStyles;
+}

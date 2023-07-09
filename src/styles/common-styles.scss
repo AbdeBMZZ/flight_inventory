@@ -1,0 +1,26 @@
+@mixin dxDataGridStyles {
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+@mixin dxHeaderRowStyles {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  color: black;
+}
+
+@mixin dxRowStyles {
+  .dx-cell {
+    color: #555;
+  }
+
+  .dx-data-row:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+
+  .dx-data-row:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+}

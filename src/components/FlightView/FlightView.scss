@@ -1,0 +1,13 @@
+@import "../../styles/common-styles.scss";
+
+.flight-list-view {
+  .dx-datagrid {
+    @include dxDataGridStyles;
+  }
+
+  .dx-header-row {
+    @include dxHeaderRowStyles;
+  }
+
+  @include dxRowStyles;
+}

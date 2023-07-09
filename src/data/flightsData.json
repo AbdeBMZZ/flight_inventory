@@ -1,0 +1,26 @@
+[
+  {
+    "flightId": "1",
+    "airlineCode": "XYZ",
+    "flightNumber": "123",
+    "flightDate": "2023-07-07",
+    "origin": "ABC",
+    "destination": "DEF"
+  },
+  {
+    "flightId": "2",
+    "airlineCode": "ABC",
+    "flightNumber": "456",
+    "flightDate": "2023-07-08",
+    "origin": "DEF",
+    "destination": "GHI"
+  },
+  {
+    "flightId": "3",
+    "airlineCode": "DEF",
+    "flightNumber": "789",
+    "flightDate": "2023-07-09",
+    "origin": "GHI",
+    "destination": "JKL"
+  }
+]
